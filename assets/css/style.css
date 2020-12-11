@@ -1,6 +1,14 @@
-#container,#container2,#container3{
+body{
+    background-color: rgb(68, 230, 36);
+}
+
+#container,#container3{
     display: none;
     margin-top: 200px;
+}
+#container2{
+    display: none;
+    margin-top: 150px;
 }
 
 #first{
@@ -17,7 +25,7 @@
 }
 
 #but1{
-    width: 20%;
+    width: 30%;
     height: 3em;
     background-color: lightblue;
     cursor: pointer;
@@ -28,21 +36,25 @@
     
 }
 #but1:hover {
-    background-color: lightgreen;
-    color:white;
+    background-color: rgb(253, 253, 253);
+    /* color:rgb(236, 38, 193); */
+    font-size: 1.6rem;
 }
 
 #but2:hover {
-    background-color: lightgreen;
-    color:white;
+    background-color: rgb(253, 253, 253);
+    /* color:rgb(236, 38, 193); */
+    font-size: 1.6rem;
 }
 
 #but3:hover {
-    background-color: lightgreen;
+    background-color: rgb(253, 253, 253);
+    /* color:rgb(236, 38, 193); */
+    font-size: 1.5rem;
 }
 
 #but2{
-    width: 20%;
+    width: 30%;
     height: 2.5em;
     background-color: lightblue;
     cursor: pointer;
@@ -53,11 +65,11 @@
 }
 
 #but3{
-    width: 100px;
-    height: 2.5em;
+    width: 150px;
+    height: 4em;
     background-color: lightblue;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: black;
     margin-top: 30px;
 
@@ -69,9 +81,7 @@
 }
 
 #inp{
-    height: 1em;
-    width: 500px;
-    font-size: 1.5rem;
+    height: 1.5em;
 }
 
 #over,#over2,#ans,#ans1,#ans2,#ans3{
@@ -79,4 +89,9 @@
 }
 .same{
     font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#end2{
+    margin-top: 30px;
 }
