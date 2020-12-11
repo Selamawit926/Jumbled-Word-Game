@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Jumbled Word Game</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <div id="first">
+                <h1 id="hi">Hello!</h1>
+            
+                <h2 id="intro">
+                    Hey there! Are you up to fixing jumbled sentences?    
+                </h2>
+                
+                <h2 id="intro3">
+                    This is a game where you have to put the jumbled words in sentences in their right order.</h2>
+            
+                <h2 id="intro2">
+                     Press the start button to play!
+                </h2>
+                
+                <button id="but1" onclick="hide()" >Start</button>
+            </div> 
+            
+
+        </div>
+    </div>
+
+
+</div>    
+    
+
+
+<div class="container">
+    <div id="rules" class="rules">
+        <h1>Rules of The Game</h1>
+    </div>
+
+    <div  class="rules">
+            <ul id="dis">
+
+                <li class="list" id="rule1">
+                    You will have 50 seconds to correctly put the words in their right order.
+                </li>
+    
+            </ul>
+    
+            <ul id="dis2">
+                <li class="list" id="rule2">
+                     There are five questions so good luck!
+                </li>
+            
+            </ul>
+
+            <p id="ff">Press the play button to start!</p>
+
+            <button id="but2" onclick="hide1()">Play</button>
+    
+    </div>
+</div>
+
+
+<div id="container2">
+    <h1 class="same" id="num">#5</h1>
+    <h2  class="same" id="ques">highschool doing during English I hated this tests in</h2> 
+    <form action="">
+        <label  class="same" for="#inp">Your answer:</label>
+        <input type="text" id="inp">
+    </form>
+
+    <div id="side">
+        <h1  class="same" id="time">Countdown 0:50</h1>
+        <button id="but3" onclick="check()">I'm done!</button>
+        <h2 id="over">Time's up!</h2>
+        <h2  class="same" id="over2">Oops! You've ran out of time!</h2>
+        <h2  class="same" id="ans" >Congratulations you're right! </h2>
+        <h2  class="same" id="ans3" >Oops! You didn't get it right.</h2>
+        <h2   class="same" id="ans1">The answer: </h2>
+        <h2  class="same" id="ans2" >Your answer: </h2>
+    </div>
+    
+    
+</div>
+
+<div id="container3">
+    <h2 id="end" class="end">You got 3 out of 5 right! Good for you</h2>
+    <h2 class="end" id="end2">Remember, words are not the only jumbled things you can fix!</h2>
+</div> 
+
+
+<div id="bg">
+
+</div>
+
+<script src="./assets/js/jquery-3.4.1.min.js"></script>
+<script src="./assets/js/bootstrap.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
