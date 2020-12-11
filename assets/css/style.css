@@ -1,1 +1,48 @@
-/*  */
+#container,#container2,#container3{
+    display: none;
+    margin-top: 200px;
+}
+
+#first{
+    margin-top:70px;
+}
+
+#but1{
+    width: 15%;
+    height: 3em;
+    background-color: lightblue;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 30px;   
+         
+    
+}
+#but1:hover {
+    background-color: lightgreen;
+    color:white;
+}
+
+#but2:hover {
+    background-color: lightgreen;
+    color:white;
+}
+
+#but3:hover {
+    background-color: lightgreen;
+}
+
+#but2{
+    width: 15%;
+    height: 2em;
+    background-color: lightblue;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 30px;
+
+}
+
+.rules{
+    font-size: 1.5rem;
+}

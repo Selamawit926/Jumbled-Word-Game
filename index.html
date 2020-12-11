@@ -9,10 +9,10 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container con" id="first">
     <div class="row">
 
-        <div class="col-md-12">
+        <div class="col-md-12 text-center">
 
             <div id="first">
                 <h1 id="hi">Hello!</h1>
@@ -40,37 +40,45 @@
     
 
 
-<div class="container">
-    <div id="rules" class="rules">
-        <h1>Rules of The Game</h1>
-    </div>
-
-    <div  class="rules">
-            <ul id="dis">
-
-                <li class="list" id="rule1">
-                    You will have 50 seconds to correctly put the words in their right order.
-                </li>
-    
-            </ul>
-    
-            <ul id="dis2">
-                <li class="list" id="rule2">
-                     There are five questions so good luck!
-                </li>
+<div class="container con1" id="container">
+    <div class="row">
+        <div class="col-md-12 ">
+            <div id="rules" class="rules">
+                <h1>Rules of The Game</h1>
+            </div>
+        
+            <div  class="rules">
+                    <ul id="dis">
+        
+                        <li class="list" id="rule1">
+                            You will have 50 seconds to correctly put the words in their right order.
+                        </li>
             
-            </ul>
+                    </ul>
+            
+                    <ul id="dis2">
+                        <li class="list" id="rule2">
+                             There are five questions so good luck!
+                        </li>
+                    
+                    </ul>
+        
+                    <p id="ff">Press the play button to start!</p>
+        
+                    <button id="but2" onclick="hide1()">Play</button>
+            
+            </div>
+        </div>
+        </div>
 
-            <p id="ff">Press the play button to start!</p>
-
-            <button id="but2" onclick="hide1()">Play</button>
-    
     </div>
-</div>
+    
 
+    <div class="container con2" id="container2">
+        <div class="row">
+            <div class="col-md-12">
 
-<div id="container2">
-    <h1 class="same" id="num">#5</h1>
+                <h1 class="same" id="num">#5</h1>
     <h2  class="same" id="ques">highschool doing during English I hated this tests in</h2> 
     <form action="">
         <label  class="same" for="#inp">Your answer:</label>
@@ -87,19 +95,28 @@
         <h2   class="same" id="ans1">The answer: </h2>
         <h2  class="same" id="ans2" >Your answer: </h2>
     </div>
-    
-    
-</div>
+            </div>
 
-<div id="container3">
-    <h2 id="end" class="end">You got 3 out of 5 right! Good for you</h2>
-    <h2 class="end" id="end2">Remember, words are not the only jumbled things you can fix!</h2>
+        </div>
+
+    </div>
+
+
+
+<div class="container con3" id="container3">
+    <div class="row">
+        <div class="col-md-12">
+
+            <h2 id="end" class="end">You got 3 out of 5 right! Good for you</h2>
+            <h2 class="end" id="end2">Remember, words are not the only jumbled things you can fix!</h2>
+        </div>
+
+    </div>
+    
 </div> 
 
 
-<div id="bg">
 
-</div>
 
 <script src="./assets/js/jquery-3.4.1.min.js"></script>
 <script src="./assets/js/bootstrap.js"></script>
